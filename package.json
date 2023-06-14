@@ -1,0 +1,23 @@
+{
+  "name": "starnode",
+  "version": "1.0.0",
+  "description": "A public blog website",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./public/index.html --port 3000",
+    "build": "parcel build ./public/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alok Verma",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.2",
+    "postcss": "^8.4.24",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

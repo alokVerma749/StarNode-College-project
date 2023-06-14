@@ -1,0 +1,1 @@
+export const BLOGS_API = "https://hashnode.com/api/feed/tag/reactjs?type=hot"
