@@ -2,7 +2,6 @@
   "name": "starnode",
   "version": "1.0.0",
   "description": "A public blog website",
-  "main": "index.js",
   "scripts": {
     "start": "parcel ./public/index.html --port 3000",
     "build": "parcel build ./public/index.html",
